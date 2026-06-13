@@ -1,0 +1,20 @@
+BACKEND :
+
+cd C:\Users\Soham\Desktop\Hawkathon-2026
+& .\.venv\Scripts\Activate.ps1
+cd backend
+python -m uvicorn main:app --reload
+
+
+AI :
+
+cd C:\Users\Soham\Desktop\Hawkathon-2026
+& .\.venv\Scripts\Activate.ps1
+cd voice-health-assistant\voice-health-assistant
+python app.py
+
+
+FRONTEND :
+
+cd C:\Users\Soham\Desktop\Hawkathon-2026\frontend
+npm run dev

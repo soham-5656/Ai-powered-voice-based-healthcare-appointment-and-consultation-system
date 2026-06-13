@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AI Healthcare Assistant</title>
+</head>
+
+<body>
+
+<h2>Voice Healthcare Assistant</h2>
+
+<button onclick="startVoice()">Start Voice</button>
+
+<p>You Said:</p>
+<p id="text"></p>
+
+<p>AI Response:</p>
+<pre id="result"></pre>
+
+<div id="popup" style="display:none;border:2px solid red;padding:20px">
+
+<h3>⚠ Emergency Assistance</h3>
+
+<button id="ambulanceBtn" style="display:none" onclick="callAmbulance()">
+🚑 Call Ambulance
+</button>
+
+<button id="assistBtn" style="display:none" onclick="callAssist()">
+📞 Call Emergency Assistance
+</button>
+
+<button onclick="shareLocation()">
+📍 Share Location
+</button>
+
+<div id="location"></div>
+
+</div>
+
+<script src="/static/voice.js"></script>
+
+</body>
+</html>
